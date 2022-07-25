@@ -1,0 +1,25 @@
+{
+  "name": "loginthiabsingup",
+  "version": "1.0.0",
+  "description": "nujsua hawj yog tus sau",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js", 
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "nujsua",
+    "hawj"
+  ],
+  "author": "nujsua los sis jack sainther",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "express": "^4.18.1",
+    "express-validator": "^6.14.1",
+    "jsonwebtoken": "^8.5.1",
+    "mysql2": "^2.3.3",
+    "nodemon": "^2.0.16"
+  }
+}
